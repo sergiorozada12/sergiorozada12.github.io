@@ -93,7 +93,7 @@ defaults:
   # _news
   defaults:
   - scope:
-      path: ""
+      path: "_news"
       type: news
     values:
       layout: none
