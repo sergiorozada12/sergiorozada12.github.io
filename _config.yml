@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Sergio Rozada"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Reinforcement learning and diffusion models"
+  bio    : "Dynamical systems."
   links:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
@@ -75,15 +75,15 @@ author:
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/sergio-rozada-doval/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/sergio-rozada-doval/"
 
 defaults:
   # _posts
