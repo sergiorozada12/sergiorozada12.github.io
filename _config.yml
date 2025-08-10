@@ -92,7 +92,7 @@ collections:
 defaults:
   # _news
   - scope:
-      path: "_news"
+      path: ""
       type: news
     values:
       layout: none
