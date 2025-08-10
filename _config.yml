@@ -91,7 +91,6 @@ collections:
 
 defaults:
   # _news
-  defaults:
   - scope:
       path: "_news"
       type: news
