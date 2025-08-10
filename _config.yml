@@ -60,11 +60,11 @@ author:
   avatar : "/assets/images/bio-photo.png"
   bio    : "Reinforcement learning and diffusion models"
   links:
-    - label: "Google scholar"
-      icon: "fas fa-fw fa-link"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.cl/citations?user=MFQxsqYAAAAJ&hl=es&oi=ao"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sergio-rozada-doval/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
@@ -82,7 +82,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sergio-rozada-doval/"
 
 defaults:
