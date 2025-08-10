@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Reinforcement learning, diffusion models, graph neural networks, and tensors.
 twitter_username: sergiorozada_12
 github_username: sergiorozada12
+repository: sergiorozada12/sergiorozada12.github.io
 minimal_mistakes_skin: default
 search: true
 
