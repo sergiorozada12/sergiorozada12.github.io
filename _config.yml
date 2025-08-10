@@ -85,18 +85,18 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
 
+collections:
+  news:
+    output: false
+
 defaults:
-  # _posts
+  # _news
+  defaults:
   - scope:
       path: ""
-      type: posts
+      type: news
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      layout: none
   # _pages
   - scope:
       path: "_pages"
@@ -104,10 +104,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
