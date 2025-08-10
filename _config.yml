@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: sergiorozada_12
 github_username: sergiorozada12
 repository: sergiorozada12/sergiorozada12.github.io
-minimal_mistakes_skin: mint
+minimal_mistakes_skin: default
 
 # Build settings
 markdown: kramdown
@@ -58,20 +58,20 @@ plugins:
 author:
   name   : "Sergio Rozada"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Academic + ML engineer. RL, diffusion, GNNs."
+  bio    : "Reinforcement learning and diffusion models"
   links:
-    - label: "Website"
+    - label: "Google scholar"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://scholar.google.cl/citations?user=MFQxsqYAAAAJ&hl=es&oi=ao"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/sergio-rozada-doval/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/sergiorozada_12"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/sergiorozada12"
 
 footer:
   links:
@@ -81,9 +81,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/sergio-rozada-doval/"
 
 defaults:
   # _posts
