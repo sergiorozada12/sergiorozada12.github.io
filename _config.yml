@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Sergio Rozada"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Assistant Professor at ECE, URJC. Interested in dynamical systems."
+  bio    : "Assistant Professor at ECE, URJC. Interested in dynamical systems, reinforcement learning, and optimization."
   links:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
