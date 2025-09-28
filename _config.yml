@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Sergio Rozada"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Dynamical systems."
+  bio    : "Assistant Professor at ECE, URJC. Interested in dynamical systems."
   links:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
@@ -77,7 +77,7 @@ footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/sergio-rozada-doval/"
+      url: "https://www.linkedin.com/in/sergio-rozada/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
