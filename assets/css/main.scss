@@ -23,6 +23,13 @@ $doc-font-size-medium   : 16px;
 $doc-font-size-large    : 17px;
 $doc-font-size-x-large  : 18px; // was 22px
 
+// Body copy only, relative to the sizes above. 0.85 -> ~15px on a wide screen.
+$content-font-scale     : 0.85;
+
+// Wider container: the theme caps it at 1280px, of which 300px go to the
+// author sidebar. 1440px gives the text column about 140px more to breathe.
+$max-width              : 1440px;
+
 $primary-color          : #175c63; // deep teal, single accent
 $link-color             : $primary-color;
 $link-color-hover       : mix(#000, $primary-color, 25%);
@@ -67,6 +74,44 @@ $navicon-link-color-hover  : mix(#fff, $text-color, 88%);
 
     &:hover {
       color: $primary-color;
+    }
+  }
+}
+
+/* Body copy of the pages. Kept separate from the root size so that the
+   navigation, titles and sidebar keep their proportions. */
+
+.page__content {
+  p,
+  li,
+  dl,
+  table {
+    font-size: #{$content-font-scale}em;
+  }
+}
+
+/* Top-level lists are numbered [1], [2], ... instead of bulleted. Scoped to
+   direct children so the table of contents, which also lives inside
+   .page__content, keeps its own styling. */
+
+.page__content > ul {
+  list-style: none;
+  counter-reset: refs;
+  padding-inline-start: 3em;
+
+  > li {
+    counter-increment: refs;
+    position: relative;
+
+    &::before {
+      content: "[" counter(refs) "]";
+      position: absolute;
+      inset-inline-start: -3em;
+      width: 2.5em;
+      padding-inline-end: 0.5em;
+      text-align: end; // right-aligned, so [9] and [10] line up
+      color: $muted-text-color;
+      font-variant-numeric: tabular-nums;
     }
   }
 }
