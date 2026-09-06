@@ -135,3 +135,14 @@ $navicon-link-color-hover  : mix(#fff, $text-color, 88%);
   font-size: 1.125em;
 }
 
+/* Gap between the author sidebar and the text column. The theme leaves 1em
+   of slack between the two floats, so 0.5cm more lands at about 1cm total.
+   Only from $large up, which is where the sidebar sits beside the content
+   rather than stacked above it. */
+
+.page {
+  @include breakpoint($large) {
+    padding-inline-start: 0.5cm;
+  }
+}
+
