@@ -2,7 +2,6 @@
 layout: single
 title: "Research"
 permalink: /research/
-toc: true
 ---
 
 My research sits at the interplay between data, models, and optimization, with the goal of understanding and controlling dynamical systems. Three threads run through it: exploiting parsimonious low-rank structure to make sequential decision making tractable, reading dynamic programming through the lens of signal processing, and building generative models that respect the irregular domains where data lives.

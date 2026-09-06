@@ -115,3 +115,23 @@ $navicon-link-color-hover  : mix(#fff, $text-color, 88%);
     }
   }
 }
+
+/* Breathing room around the content column. The theme leaves a wide empty
+   gutter on the right already, so the extra margin only goes on the left. */
+
+#main {
+  // gap under the navigation bar; the theme contributes another 1em below this
+  padding-block-start: 0.6cm;
+
+  // left margin, kept at the theme default on phones where 1.5cm eats the screen
+  @include breakpoint($medium) {
+    padding-inline-start: 1.5cm;
+  }
+}
+
+/* Navigation bar type, a touch larger than the body copy. */
+
+.greedy-nav {
+  font-size: 1.125em;
+}
+

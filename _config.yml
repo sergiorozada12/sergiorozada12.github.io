@@ -60,6 +60,9 @@ author:
   avatar : "/assets/images/bio-photo.png"
   bio    : "Assistant Professor at ECE, URJC. Interested in dynamical systems, reinforcement learning, and optimization."
   links:
+    - label: "Department website"
+      icon: "fas fa-fw fa-university"
+      url: "https://servicios.urjc.es/pdi/ver/sergio.rozada"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.cl/citations?user=MFQxsqYAAAAJ&hl=es&oi=ao"
