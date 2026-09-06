@@ -81,7 +81,8 @@ $navicon-link-color-hover  : mix(#fff, $text-color, 88%);
 /* Body copy of the pages. Kept separate from the root size so that the
    navigation, titles and sidebar keep their proportions. */
 
-.page__content {
+.page__content,
+.archive {
   p,
   li,
   dl,
@@ -92,7 +93,8 @@ $navicon-link-color-hover  : mix(#fff, $text-color, 88%);
 
 /* Top-level lists are numbered [1], [2], ... instead of bulleted. Scoped to
    direct children so the table of contents, which also lives inside
-   .page__content, keeps its own styling. */
+   .page__content, keeps its own styling. Deliberately not extended to
+   .archive: the news list on the landing page is dated, not a reference list. */
 
 .page__content > ul {
   list-style: none;
@@ -140,7 +142,8 @@ $navicon-link-color-hover  : mix(#fff, $text-color, 88%);
    Only from $large up, which is where the sidebar sits beside the content
    rather than stacked above it. */
 
-.page {
+.page,
+.archive {
   @include breakpoint($large) {
     padding-inline-start: 0.5cm;
   }
