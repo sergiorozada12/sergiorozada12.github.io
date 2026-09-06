@@ -15,6 +15,14 @@ $border-color           : #e5e1d8;
 $form-background-color  : #f3f1ec;
 $footer-background-color: #2e3338; // dark band closing the page
 
+/* Type scale. The theme ramps the base size up to 22px on wide screens,
+   which is heavy for long-form paragraphs. Cap it at 18px. */
+
+$doc-font-size          : 16px; // small screens
+$doc-font-size-medium   : 16px;
+$doc-font-size-large    : 17px;
+$doc-font-size-x-large  : 18px; // was 22px
+
 $primary-color          : #175c63; // deep teal, single accent
 $link-color             : $primary-color;
 $link-color-hover       : mix(#000, $primary-color, 25%);
