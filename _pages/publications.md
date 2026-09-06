@@ -6,11 +6,15 @@ permalink: /publications/
 
 ## Conference Publications
 
+- **Rozada S.**, Qin Y., Madeira M., Frossard P., and Ribeiro A., *DiPhon: Diffusion on Graphons for Scalable Graph Generation,* (under review), 2026.  
+- Khalafi S., Krawczuk I., **Rozada S.**, Kanatsoulis C., Marques A. G., and Ribeiro A., *Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion,* (under review), 2026.  
+- Li B., **Rozada S.**, and Ribeiro A., *Learning Policy Representations for Steerable Behavior Synthesis,* (under review), 2026.  
 - Uslu Y. B., Hadou S., **Rozada S.**, Saeedi Bidokhti S., and Ribeiro A., *Graph Signal Generative Diffusion Models,* IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2026.  
-- **Rozada S.**, Kumarasamy V., Cavallo A., Marques A. G., Jamali-Rad H., and Isufi E., *Graph-Aware Diffusion for Signal Generation,* IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2026.  
+- **Rozada S.**, Vimal K. B., Cavallo A., Marques A. G., Jamali-Rad H., and Isufi E., *Graph-Aware Diffusion for Signal Generation,* IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2026.  
 - **Rozada S.**, Ding D., Marques A. G., and Ribeiro A., *Deterministic Policy Gradient Primal-Dual Methods for Continuous-Space Constrained MDPs,* AAAI Conference on Artificial Intelligence, 2025.  
 - Navarro M., **Rozada S.**, Marques A. G., and Segarra S., *Low-Rank Tensors for Multi-Dimensional Markov Models,* IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2025.  
 - **Rozada S.**, Rey S., Mateos G., and Marques A. G., *Unrolling Dynamic Programming via Graph Filters,* IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing (CAMSAP), 2025.  
+- **Rozada S.**, Rey S., Pérez M. A., Mateos G., and Marques A. G., *Unrolled Policy Iteration via Graph Filters,* NeurIPS Workshop on New Perspectives in Graph Machine Learning (NPGML), 2025.  
 - **Rozada S.**, and Marques A. G., *Tensor Low-Rank Approximation of Finite-Horizon Value Functions,* IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024.  
 - **Rozada S.**, Paternain S., Bazerque J. A., and Marques A. G., *A Tensor Low-Rank Approximation for Value Functions in Multi-Task Reinforcement Learning,* Asilomar Conference on Signals, Systems, and Computers, 2024.  
 - **Rozada S.**, and Marques A. G., *Matrix Low-Rank Approximation for Policy Gradient Methods,* IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2023.  
@@ -23,7 +27,8 @@ permalink: /publications/
 
 ## Journal Publications
 
-- **Rozada S.**, Orejuela J. L., and Marques A. G., *Solving Finite-Horizon MDPs via Low-Rank Tensors,* IEEE Transactions on Signal Processing (under review), 2026.  
+- Uslu Y. B., Hadou S., **Rozada S.**, Saeedi Bidokhti S., and Ribeiro A., *Generative Diffusion Models of Stochastic Graph Signals,* (under review), 2026.  
+- **Rozada S.**, Orejuela J. L., and Marques A. G., *Addressing Finite-Horizon MDPs via Low-Rank Tensor Value Approximation,* IEEE Transactions on Signal Processing (under review), 2026.  
 - **Rozada S.**, Wai H. T., and Marques A. G., *Multilinear Tensor Low-Rank Approximation for Policy-Gradient Methods in Reinforcement Learning,* IEEE Transactions on Signal Processing, 2025.  
 - **Rozada S.**, Paternain S., and Marques A. G., *Tensor and Matrix Low-Rank Value-Function Approximation in Reinforcement Learning,* IEEE Transactions on Signal Processing, 2024.  
 - **Rozada S.**, Apostolopoulou D., and Alonso E., *Deep Multi-Agent Reinforcement Learning for Cost-Efficient Distributed Load Frequency Control,* IET Energy Systems Integration, 2021.  
